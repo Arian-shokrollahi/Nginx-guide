@@ -78,5 +78,5 @@ server {
 
 ----
 <p align=center>
-	<img src="../00-images/alias-directive.png" alt="image" width=800>
+	<img src="../../../00-images/alias-directive.png" alt="image" width=800>
 </p>
