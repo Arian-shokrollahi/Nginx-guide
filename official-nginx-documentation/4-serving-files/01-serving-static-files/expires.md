@@ -87,19 +87,23 @@ Cache-Control: max-age=604800
 
 
 <p align=center>
-	<img src="../00-images/withexpiresdirectivetest.png" alt="image" width=800>
+	<img src="../../00-images/withexpiresdirectivetest.png" alt="image" width=800>
 </p>
 
 ---
 ## اینم یه مثال دیگه که درون این مدل بدون expires  سرو میکنیم
 
 <p align=center>
-	<img src="../00-images/withoutexpiresdirectivetest.png" alt="image" width=800>
+	<img src="../../00-images/withoutexpiresdirectivetest.png" alt="image" width=800>
 </p>
 
 ----
 #  اون مدل اولی رو با firefox باز کردن و مدل دومی بدون دایرکتیو expires رو با chrome
 
 <p align=center>
-	<img src="../00-images/testchromeandfirefox.png" alt="image" width=800>
+	<img src="../../00-images/testchromeandfirefox.png" alt="image" width=800>
 </p>
+
+----
+
+# پس همانطور که دید کش باعث میشه که در حافظه مرورگر ذخیره بمونه و توسط curl -I میتونید هدر هارو برسی کنید که expires داره یا نداره و تا کی است
