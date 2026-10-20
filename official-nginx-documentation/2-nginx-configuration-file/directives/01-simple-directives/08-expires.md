@@ -87,14 +87,14 @@ Cache-Control: max-age=604800
 
 
 <p align=center>
-	<img src="../00-images/withexpiresdirectivetest.png" alt="image" width=800>
+	<img src="../../../00-images/withexpiresdirectivetest.png" alt="image" width=800>
 </p>
 
 ---
 ## اینم یه مثال دیگه که درون این مدل بدون expires  سرو میکنیم
 
 <p align=center>
-	<img src="../00-images/withoutexpiresdirectivetest.png" alt="image" width=800>
+	<img src="../../../00-images/withoutexpiresdirectivetest.png" alt="image" width=800>
 </p>
 
 ----
