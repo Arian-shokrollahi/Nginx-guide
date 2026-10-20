@@ -63,7 +63,7 @@ http://localhost:8080/pictures/
 
 
 <p align=center>
-	<img src="../../../00-images/autoindex.png" alt="image" width=800>
+	<img src="../../00-images/autoindex.png" alt="image" width=800>
 </p>
 # ا-autoindex یه متن هم بزرگ بالاش مینویسه که اون متنه رو اگر شما در ریشه سرور index.html تعریف کنید و در اون html یه تایتل تعریف کنید میشه اون تایتلمه
 
