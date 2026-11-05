@@ -32,6 +32,6 @@ server {
 - من اومدم با پایتون برایه سرور پایتونیم یه خطوطی نوشتم که درخواست میزند اون هدر هایه بین nginx و backend رو نشون میده و میتونیم حالا ببینیم که این دایرکتیو چی دراد
 
 <p align=center>
-	<img src"../../../00-images/test-proxy_set_header-Xrealipdirective" alt="images" width=800>
+	<img src="../../../00-images/test-proxy_set_header-Xrealipdirective" alt="images" width=800>
 </p>
 
