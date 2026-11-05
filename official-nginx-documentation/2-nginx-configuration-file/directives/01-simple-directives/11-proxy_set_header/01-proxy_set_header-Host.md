@@ -43,5 +43,5 @@ http://domain-or-IP:port/clientURI
 ### 4- تست دایرکتیو proxy_set_header Host $host
 
 <p align=center>
-	<img src="../../00-images/test-proxy-set-header-Host.png" alt="images" width=800>
+	<img src="../../../../00-images/test-proxy-set-header-Host.png" alt="images" width=800>
 </p>
