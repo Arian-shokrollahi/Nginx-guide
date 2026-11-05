@@ -3,7 +3,7 @@
 ### 1- این  دایرکتیو چیکار میکند اگر بخوام به صورت تصویری نشان بدم
 
 <p align=center>
-	<img src="../../../../00-images/Nginx Proxy Redirect Explained.png" alt="images" width=800>
+	<img src="../../00-images/Nginx Proxy Redirect Explained.png" alt="images" width=800>
 </p>
 
 دستور `proxy_redirect` در Nginx آدرس‌های داخلی Backend را در هدرهای Redirect مثل `Location` اصلاح می‌کند تا IP و پورت داخلی Backend برای کاربر افشا نشود.
