@@ -1,134 +1,45 @@
-## نقشه راه پیشنهادی ادامه یادگیری Nginx
+# proxy_set_header Host $host
+---
+### ۱-دایرکتیو proxy_set_header Host $host چیست؟
+`proxy_set_header Host $host;`
 
-مرحله ۱: مباحثی که تا الان خوندی
+یعنی نام دامنه یا IP درخواست Client را در هدر Host به Backend ارسال کن، بدون پروتکل و پورت.
 
-Architecture، Configuration، Directives، Signals، Static Files و مقدمات Reverse Proxy
-
-مطالعه‌شده
-
-مرحله ۲: تکمیل Reverse Proxy
-
-پیشنهاد برای مرحله بعد
-
-- `proxy_set_header`
-    
-- `Host` و `X-Real-IP`
-    
-- `X-Forwarded-For` و `X-Forwarded-Proto`
-    
-- `proxy_redirect`
-    
-- `proxy_connect_timeout` و `proxy_read_timeout`
-    
-- `proxy_next_upstream`
-    
-
-مرحله ۳: Load Balancing
-
-- `upstream`
-    
-- Round Robin
-    
-- Least Connections
-    
-- IP Hash
-    
-- `weight`، `backup` و `max_fails`
-    
-- Passive Health Checks
-    
-
-مرحله ۴: HTTPS و SSL/TLS
-
-- `listen 443 ssl`
-    
-- SSL Certificates
-    
-- HTTP to HTTPS Redirect
-    
-- TLS Termination
-    
-
-مرحله ۵: امنیت، عملکرد و عیب‌یابی
-
-- Rate Limiting
-    
-- Access Control
-    
-- Proxy Caching
-    
-- Gzip
-    
-- Custom Log Format
-    
-- خطاهای 403، 404، 502، 503 و 504
-    
-
-این ترتیب با قابلیت‌های مستند Nginx Open Source هم سازگاره. فقط دقت کن Active Health Checks داخلی با دستور `health_check` مربوط به امکانات تجاری NGINX Plus هست؛ در نسخه Open Source می‌تونی ابتدا Passive Health Checks رو یاد بگیری.
-
-NGINX Documentation+2
-
-## الان دقیقاً چی بخونی؟
-
-به نظرم درس بعدیت باید `proxy_set_header` باشه.
-
-چون تا الان یاد گرفتی Nginx درخواست رو به Backend می‌فرسته، اما هنوز باید بفهمی چه اطلاعاتی همراه درخواست منتقل می‌شن.
-
-مثلاً:
-
-```
-server {
-    listen 8080;
-    server_name localhost;
-
-    location /api/ {
-        proxy_pass http://127.0.0.1:3000/;
-
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-```
-
-در این کانفیگ:
-
-|Directive|وظیفه|
-|---|---|
-|`proxy_pass`|ارسال درخواست به Backend|
-|`proxy_set_header Host`|انتقال نام Host|
-|`X-Real-IP`|ارسال IP کلاینت از دید Nginx|
-|`X-Forwarded-For`|انتقال زنجیره IPهای Proxy و کلاینت|
-|`X-Forwarded-Proto`|مشخص کردن پروتکل درخواست ورودی|
-
-این هدرها باید با تنظیمات اعتماد به Proxy در Backend هماهنگ باشن تا اطلاعات قابل جعل، به‌اشتباه معتبر فرض نشن.
-
-nginx.org
 
 ---
-## 3. قبل از proxy_set_header چی یاد بگیری؟
 
-به نظرم این ترتیب عالیه:
+### ۲-دقیقا چیست proxy_set_header Host $host
+- برایه فهمیدن این اول باید بدونید که ساختار http request به چه صورته
+ساختار آدرس در HTTP Request به این صورته:
 
-1. HTTP Request و HTTP Response
-    
-2. Request Line و Status Line
-    
-3. HTTP Headers و HTTP Body
-    
-4. تفاوت Request Headers و Response Headers
-    
-5. Headerهای مهم مثل `Host`، `Content-Type`، `Authorization` و `User-Agent`
-    
-6. بعد وارد `proxy_set_header` در Nginx شو.
-    
+```
+http://domain-or-IP:port/clientURI
+```
 
-نکته مهم: لازم نیست کل پروتکل HTTP رو حرفه‌ای یاد بگیری تا بتونی Nginx کار کنی. فقط ساختار درخواست و پاسخ، Headerها و Status Codeها رو خوب بفهم.
+- `http://` → پروتکل
+    
+- `domain-or-IP` → دامنه یا IP مقصد
+    
+- `port` → پورت مقصد
+    
+- `clientURI` → مسیر درخواستی کلاینت
 
-بعد از اون، `proxy_set_header` برات خیلی ساده‌تر می‌شه، چون می‌فهمی دقیقاً داری چه اطلاعاتی رو بین Client، Nginx و Backend جابه‌جا می‌کنی.
+این دایرکتیو بما <mark> domain or ip </mark> که اون کلاینت میزنه رو نشون میده
 
 ---
+
+### ۳- دلیل استفاده از این دایرکتیو چیست:
+
+چون ممکن است چندین وب‌سایت روی یک سرور Backend میزبانی شوند. سرور Backend با بررسی هدر `Host` تشخیص می‌دهد درخواست مربوط به کدام وب‌سایت است.
+
+پس به زبان ساده:
+
+با این دستور به Backend می‌گوییم درخواست اولیه کاربر برای کدام دامنه یا IP بوده است.
+
+
+----  
+
+
 ### 4- تست دایرکتیو proxy_set_header Host $host
 
 <p align=center>
