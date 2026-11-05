@@ -3,7 +3,7 @@
 ## ۱-دلیل استفاده ما از این پروکسی چیست
 
 <p align=center>
-	<img src="../../../../00-images/whyweuseforwarddirectiveinreverse proxy.png" alt="images" width=800>
+	<img src="../../../00-images/whyweuseforwarddirectiveinreverse.png" alt="images" width=800>
 </p>
 با استفاده از این دستور، IP کلاینت را داخل Header قرار می‌دهیم تا Backend بتواند IP واقعی کلاینت را شناسایی کند.
 انتقال IP کلاینت از Nginx به Backend از طریق Header به نام `X-Forwarded-For`.
@@ -51,7 +51,7 @@ X-Forwarded-For: 10.0.0.5, 127.0.0.1
 نکته امنیتی: این آزمایش عمداً یک IP جعلی در درخواست وارد می‌کنه تا ببینی چرا نباید بدون اعتبارسنجی به مقادیر `X-Forwarded-For` اعتماد کرد.
 
 <p align=center>
-	<img src="../../../../00-images/testrealandforwarded.png" alt="images" width=800>
+	<img src="../../../00-images/testrealandforwarded.png" alt="images" width=800>
 </p>
 
 ---
