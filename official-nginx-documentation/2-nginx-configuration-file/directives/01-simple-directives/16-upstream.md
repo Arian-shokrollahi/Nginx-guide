@@ -22,7 +22,7 @@
 فرض کن سه وب‌سرور داریم که همگی یک سرویس را ارائه می‌دهند. به‌جای اینکه در تنظیمات `proxy_pass` برای هر سرور جداگانه آدرس بنویسیم، همه آن‌ها را داخل یک گروه به نام `backend` قرار می‌دهیم.
 
 <p align=center>
-	<img src="../00-images/upstreamloadbalancing1.png" alt="images" width=800>
+	<img src="../../../00-images/upstreamloadbalancing1.png" alt="images" width=800>
 </p>
 
 ---
