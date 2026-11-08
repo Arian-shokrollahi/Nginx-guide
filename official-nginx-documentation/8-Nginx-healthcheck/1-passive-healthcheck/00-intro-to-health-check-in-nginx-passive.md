@@ -24,6 +24,6 @@
 |`proxy_next_upstream_timeout`|
 
 <p align=center>
-	<img src="../00-images/Nginx Passive Health Check Infographic.png" alt="images" width=800>
+	<img src="../../00-images/Nginx Passive Health Check Infographic.png" alt="images" width=800>
 </p>
 
