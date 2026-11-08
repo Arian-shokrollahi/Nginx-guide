@@ -129,7 +129,7 @@ upstream backend_servers {
 عملکرد به این شکل است:
 
 <p align=center>
-	<img src="../00-images/simpleexfail_timeout&max_fails.png" alt="images" width=800>
+	<img src="../../00-images/simpleexfail_timeout&max_fails.png" alt="images" width=800>
 </p>
 
 ---
