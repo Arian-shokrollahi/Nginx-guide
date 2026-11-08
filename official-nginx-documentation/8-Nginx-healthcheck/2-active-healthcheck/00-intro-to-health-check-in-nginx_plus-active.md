@@ -26,6 +26,6 @@
 | `jitter`   | ایجاد تأخیر تصادفی در زمان اجرای بررسی‌ها       | بدون تأخیر      |
 
 <p align=center>
-	<img src="../00-images/nginxplushealthcheck.png" alt="images" width=800>
+	<img src="../../00-images/nginxplushealthcheck.png" alt="images" width=800>
 </p>
 
