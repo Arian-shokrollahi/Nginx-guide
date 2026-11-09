@@ -87,7 +87,7 @@ health_check interval=5s;
 در این حالت، بررسی‌ها تقریباً به این ترتیب انجام می‌شوند:
 
 <p align=center>
-	<img src="../00-images/intervalhealthcheck1.png" alt="images" width=800>
+	<img src="../../00-images/intervalhealthcheck1.png" alt="images" width=800>
 </p>
 ### اگر مقدار interval را تغییر دهیم چه اتفاقی می‌افتد؟
 
