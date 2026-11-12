@@ -1,1 +1,0 @@
-/home/arian/Network-plus/02-DNS_domain.name.server_/01-section-10-requirements.md
