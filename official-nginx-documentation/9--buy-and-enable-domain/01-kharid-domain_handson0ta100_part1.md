@@ -24,7 +24,7 @@
 و بعد برایه شما چیزی مثل این نشون میده
 
 <p align=center>
-	<img src="../000-images/nic.irdashborad.png" alt="images" width=800>
+	<img src="../00-images/nic.irdashborad.png" alt="images" width=800>
 </p>
 
 ---
@@ -32,7 +32,7 @@
 ا-<mark>چهارم</mark> ---> وقتی بزنید رویه اون  DNS یه همچین صحفه ای میبینید
 
 <p align=center>
-	<img src="../000-images/nameserverin-nic.ir.png" alt="images" width=800>
+	<img src="../00-images/nameserverin-nic.ir.png" alt="images" width=800>
 </p>
 
 ### فهمیدید چی شد دو مدل دارد پس تنظیمات dns درون ایرنیک:
@@ -100,7 +100,7 @@ ns1.company.com
 
 
 <p align=center>
-	<img src="../000-images/cloudflareadddomain.png" alt="images" width=800>
+	<img src="../00-images/cloudflareadddomain.png" alt="images" width=800>
 </p>
 
 ---
@@ -109,7 +109,7 @@ ns1.company.com
 
 
 <p align=center>
-	<img src="../000-images/addnameserverinnic.ir.png" alt="images" width=800>
+	<img src="../00-images/addnameserverinnic.ir.png" alt="images" width=800>
 </p>
 
 ---
@@ -260,7 +260,7 @@ flags: qr aa
 2. روی Create Token کلیک کن.
 
 <p align=center>
-	<img src="../000-images/createtoken.png" alt="images" width=800>
+	<img src="../00-images/createtoken.png" alt="images" width=800>
 </p>
 
 
@@ -268,7 +268,7 @@ flags: qr aa
 
 میرید تویه همچین صحفه ای 
 <p align=center>
-	<img src="../000-images/edittoken name.png" alt="images" width=800>
+	<img src="../00-images/edittoken name.png" alt="images" width=800>
 </p>
 
 
@@ -279,7 +279,7 @@ flags: qr aa
 
 
 <p align=center>
-	<img src="../000-images/change name for toke and select edit zone.png" alt="images" width=800>
+	<img src="../00-images/change name for toke and select edit zone.png" alt="images" width=800>
 </p>
 
 
@@ -287,7 +287,7 @@ flags: qr aa
 
 
 <p align=center>
-	<img src="../000-images/entireaccount.png" alt="images" width=800>
+	<img src="../00-images/entireaccount.png" alt="images" width=800>
 </p>
 
 
@@ -295,7 +295,7 @@ flags: qr aa
 
 
 <p align=center>
-	<img src="../000-images/editpolicy.png" alt="images" width=800>
+	<img src="../00-images/editpolicy.png" alt="images" width=800>
 </p>
 عبارت All IP addresses allowed یعنی محدودیت آدرس IP برای استفاده از این API Token تعریف نکرده‌ایم.
 
@@ -311,7 +311,7 @@ flags: qr aa
 و حالا نهایی سازی و گرفتن توکن و قضیه All IP addresses allowed
 
 <p align=center>
-	<img src="../000-images/review toke.png" alt="images" width=800>
+	<img src="../00-images/review toke.png" alt="images" width=800>
 </p>
  
 

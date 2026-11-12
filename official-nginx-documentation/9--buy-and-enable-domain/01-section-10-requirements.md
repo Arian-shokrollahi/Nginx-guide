@@ -86,7 +86,7 @@ Cloudflare DNS
 برای این کار در Cloudflare یک API Token می‌سازیم و مجوزهای لازم را به آن می‌دهیم.
 
 <p align=center>
-	<img src="../000-images/apitoken.png" alt="images" width=800>
+	<img src="../00-images/apitoken.png" alt="images" width=800>
 </p>
 یک مثال ساده:
 

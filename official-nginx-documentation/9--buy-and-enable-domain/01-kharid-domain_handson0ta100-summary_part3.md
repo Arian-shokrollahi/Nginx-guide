@@ -342,7 +342,7 @@ _acme-challenge.shokbil.ir
 برای اینکه تمام این مفاهیم در ذهنت به هم متصل شوند، این نقشه را ببین:
 
 <p align=center>
-	<img src="../000-images/terms and notice in kharid domain.png" alt="images" width=800>
+	<img src="../00-images/terms and notice in kharid domain.png" alt="images" width=800>
 </p>
 
 ## ۹. ده اصطلاحی که باید حتماً حفظ باشی
