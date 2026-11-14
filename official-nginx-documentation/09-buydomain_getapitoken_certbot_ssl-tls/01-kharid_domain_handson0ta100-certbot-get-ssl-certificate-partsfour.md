@@ -104,7 +104,7 @@ sudo chown root:root /etc/letsencrypt/cloudflare.ini
 
 
 <p align=center>
-	<img src="../../00-images/set6permissionforrootindomainkharid.png" alt="images" width=800>
+	<img src="../00-images/set6permissionforrootindomainkharid.png" alt="images" width=800>
 </p>
 
 
@@ -139,7 +139,7 @@ sudo certbot certonly \
 
 
 <p align=center>
-	<img src="../../00-images/certificatefilessl.png" alt="images" width=800>
+	<img src="../00-images/certificatefilessl.png" alt="images" width=800>
 </p>
 
 
