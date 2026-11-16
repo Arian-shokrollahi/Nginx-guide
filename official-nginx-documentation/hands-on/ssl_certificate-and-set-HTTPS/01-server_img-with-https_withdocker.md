@@ -213,6 +213,6 @@ curl -Iv https://shokbil.ir/monkey.png
 
 
 <p align=center>
-	<img src="../00-images/docker http https test image.png" alt="images" width=800>
+	<img src="../../00-images/docker http https test image.png" alt="images" width=800>
 </p>
 
