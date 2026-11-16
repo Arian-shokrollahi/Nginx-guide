@@ -27,7 +27,7 @@
 - ا-<mARK> اول بریم سراغه HTTP</mark> ببینیید یه کانفیگ ساده است که فقط اومده یه عکس رو سرو کرده
 
 <p align=center>
-	<img src="../00-images/handson_compare-httpsandhttp.png" alt="images" width=800>
+	<img src="../../00-images/handson_compare-httpsandhttp.png" alt="images" width=800>
 </p>
 و همونطور که مشاهده میکنید در قسمت site security idicatior نشون میده که امن secure نیست
 
@@ -37,7 +37,7 @@
 
 
 <p align=center>
-	<img src="../00-images/test httpshttp2.png" alt="images" width=800>
+	<img src="../../00-images/test httpshttp2.png" alt="images" width=800>
 </p>
 
 
