@@ -196,6 +196,6 @@ server {
 ---
 ## 7-نمونه از خروجی error log
 <p align=center>
-	<img src="../../00-images/error.png" alt="images" width=800>
+	<img src="../00-images/error.png" alt="images" width=800>
 </p>
 
